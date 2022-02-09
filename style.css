@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
     font-family: 'Bebas Neue', cursive;
 }
 body{
@@ -16,22 +15,22 @@ body{
     background-image: url(imgs/676371.jpg);
     background-size: cover;
     background-position: top;
+    background-attachment: fixed;
     margin: auto;
     width: 100%;
     height: 500px;
     color: white;
     /*filter: saturate(30%); */
     position: relative;
-}
-.logo{
-    float: left;
-    margin-left: 20px;
-    margin-top: 30px;
+    padding-top: 15px;
 }
 .menu{
-    float: right;
-    margin-right: 20px;
-    margin-top: 30px;
+    text-align: center;
+    background-color: #F2594F;
+    width: 80%;
+    height: 80%;
+    margin: auto ;
+    border-radius: 15px;
 }
 .bruno-do-meio{
     position: absolute;
@@ -46,26 +45,31 @@ body{
     max-width: 100px;
 }
 li{
-    float: left;
     list-style-type: none;
-    margin-right: 50px;
+    display: inline-block;
+    margin: 10px;
 }
 
 /* CONTEUDO PRINCIPAL */
 .conteudo-principal{
     color: white;
     margin: auto;
-    position: relative;
 }
 .about-texto{
-    position: absolute;
-    left: 50%;
     margin-top: 20px;
+    max-width: 900px;
+    margin: auto;
+    
 }
 .information{
     margin-top: 20px;
     border: 1px solid #F2594F;
     border-radius: 10px;
-    display: flex;
     padding: 50px;
+}
+/* WHATSAPP */
+.wpp{
+    position: fixed;
+    left: 72%;
+    top: 85%;
 }
