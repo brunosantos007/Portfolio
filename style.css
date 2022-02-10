@@ -15,6 +15,9 @@ body{
 .texto-vermelho{
     color: #F2594F;
 }
+/*HEADER */
+
+
 .header{
     background-image: url(imgs/676371.jpg);
     background-size: cover;
@@ -49,13 +52,19 @@ body{
     border-radius: 50%;
     max-width: 100px;
 }
-li{
+.menu-li{ /* MUDAR A LI PARA UMA CLASSE */
     list-style-type: none;
     display: inline-block;
     margin: 10px;
 }
+.menu-li a:hover{
+    color: #1E2131;
+    transition: 0.5s;
+}
 
 /* CONTEUDO PRINCIPAL */
+
+
 .conteudo-principal{
     color: white;
     margin: auto;
@@ -65,7 +74,7 @@ li{
 }
 .about-texto{
     margin-top: 20px;
-    max-width: 900px;
+    max-width: 1300px;
     margin: auto;
     text-align: justify;
 }
@@ -74,6 +83,7 @@ li{
     border: 1px solid #F2594F;
     border-radius: 10px;
     padding: 30px;
+    box-shadow: 0 0 5px #F2594F;
 }
 .btn-download{
     background-color: #F2594F;
@@ -87,10 +97,58 @@ li{
     border-radius: 10px;
     cursor: pointer;
 }
+.btn-download:hover{
+    background-color: transparent;
+    border: 1px solid #F2594F;
+    transition: 0.8s;
+}
+.information-ul {
+    columns: 2;
+    list-style-type: none;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    /*margin-left: 50px; COLOCAR DEPOIS DE 900PX*/
+  }
+  .information-ul li{
+    padding-bottom: 10px;
+  }
 
-/* WHATSAPP */
+/* MY SERVIÇES */
+
+
+.div-servicos{
+    margin: auto;
+}
+.meus-servicos{
+    border: 1px solid #F2594F;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #F2594F;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #F2594F;
+    max-width: 100%;
+}
+.footer-ul{
+
+}
+.footer-imgs{
+    width: 20px;
+    margin-top: 10px;
+    color: #1E2131;
+}
+.footer-color-a{
+    color: #1E2131;
+}
+
+/* WHATSAPP 
 .wpp{
     position: fixed;
     left: 78%;
     top: 85%;
-}
+} */
