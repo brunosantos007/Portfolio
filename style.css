@@ -35,8 +35,9 @@ body{
 .menu{
     text-align: center;
     background-color: #F2594F;
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
+    box-sizing: border-box;
     margin: auto ;
     border-radius: 15px;
 }
@@ -135,7 +136,17 @@ body{
     max-width: 100%;
 }
 .footer-ul{
-
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+}
+.footer-ul li{
+    display: inline;
+    margin: 8px;
+}
+.footer-ul li:hover{
+    color: white;
+    transition: 0.5s;
 }
 .footer-imgs{
     width: 20px;
@@ -145,7 +156,10 @@ body{
 .footer-color-a{
     color: #1E2131;
 }
-
+.teste{
+    background-color: blue;
+    width: 200px;
+}
 /* WHATSAPP 
 .wpp{
     position: fixed;
