@@ -160,9 +160,22 @@ body{
     background-color: blue;
     width: 200px;
 }
-/* WHATSAPP 
-.wpp{
-    position: fixed;
-    left: 78%;
-    top: 85%;
-} */
+
+@media screen and (min-width:950px){
+    .div-servicos{
+        margin: auto;
+        display: flex;
+        box-sizing: border-box;
+    }
+   .meus-servicos{
+        margin: 0 auto;
+        box-sizing: border-box;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-right: 100px;
+        width: 400px;
+   }
+   .textos-servicos{
+       display: inline-block;
+   }
+}
