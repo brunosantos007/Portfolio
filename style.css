@@ -83,7 +83,6 @@ body{
     margin-top: 20px;
     border: 1px solid #F2594F;
     border-radius: 10px;
-    padding: 30px;
     box-shadow: 0 0 5px #F2594F;
 }
 .btn-download{
@@ -104,15 +103,21 @@ body{
     transition: 0.8s;
 }
 .information-ul {
-    columns: 2;
     list-style-type: none;
+    margin-left: 20px;
+    /*margin-left: 50px; COLOCAR DEPOIS DE 900PX
+    columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
-    /*margin-left: 50px; COLOCAR DEPOIS DE 900PX*/
+    */
   }
   .information-ul li{
-    padding-bottom: 10px;
+    margin: 20px;
   }
+.information-color{
+    color: #F2594F;
+    margin-right: 7px;
+}
 
 /* MY SERVIÇES */
 
@@ -127,6 +132,11 @@ body{
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 5px #F2594F;
+}
+.color-servicos{
+    color: #F2594F;
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 /* FOOTER */
@@ -162,20 +172,5 @@ body{
 }
 
 @media screen and (min-width:950px){
-    .div-servicos{
-        margin: auto;
-        display: flex;
-        box-sizing: border-box;
-    }
-   .meus-servicos{
-        margin: 0 auto;
-        box-sizing: border-box;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        margin-right: 100px;
-        width: 400px;
-   }
-   .textos-servicos{
-       display: inline-block;
-   }
+    
 }
