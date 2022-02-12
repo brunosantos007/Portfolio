@@ -128,7 +128,8 @@ body{
 .meus-servicos{
     border: 1px solid #F2594F;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+    margin-top: 10px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 5px #F2594F;
